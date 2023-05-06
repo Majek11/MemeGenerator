@@ -1,9 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-image: "./";
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.nav-menu li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 25px;
+    font-family: "Tomorrow", sans-serif;
+    text-transform: uppercase;
+    width: 320px;
+    border: 2px solid black;
+    box-shadow: 0 8px #ff3086;
+}
+
+.header-text {
+    padding: 30px 40px;
+    font-size: 50px;
+    font-family: 'Jacques Francois Shadow', cursive;
 }
